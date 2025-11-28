@@ -18,7 +18,7 @@ Build an end-to-end Retrieval-Augmented Generation (RAG) **Product Search Engine
 
 ---
 
-## 2) Tech stack (recommended)
+## 2) Tech stack
 
 * Backend: Python + FastAPI
 * Frontend: React (Vite) + streaming LLM UI
@@ -295,7 +295,7 @@ Add a short README explaining how to run ingestion, start services, and where to
 
 ---
 
-## 19) Nice-to-have (next-level polish)
+## 19) Future upgrades
 
 * Streaming LLM responses in the UI
 * Query rewriting model for intent normalization
@@ -304,14 +304,4 @@ Add a short README explaining how to run ingestion, start services, and where to
 
 ---
 
-## 20) Next steps I can do for you immediately
 
-* Generate the **FastAPI backend starter code** (routes + embedding adapter + vector-store adapter + simple `search` pipeline) — ready to run locally.
-* Generate the **React frontend skeleton** that calls the `/search` endpoint and displays streaming answers.
-* Create a **data ingestion script** that takes a CSV/JSON and populates Postgres + Vector DB (mock adapter if you don’t have a real key).
-
-Tell me which of the above you'd like first and I will generate the code now.
-
----
-
-*End of blueprint.*
